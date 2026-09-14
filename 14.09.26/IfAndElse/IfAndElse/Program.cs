@@ -10,7 +10,11 @@
             //oeb andmeid konsoolist ja salvestab
             //need muutuja name sisse
             string name = Console.ReadLine();
-
+            
+            //if ja else kontrollib, kas muutuja
+            //name on tühi või mitte
+            //kui muutuja nimi on tühi, siis väljastab konsoolile
+            //teksti "Tere, tundmatu! ERROR ja teeb 4 piiksu
             if (name != "")
             {
                 Console.WriteLine("Tere," + name);
