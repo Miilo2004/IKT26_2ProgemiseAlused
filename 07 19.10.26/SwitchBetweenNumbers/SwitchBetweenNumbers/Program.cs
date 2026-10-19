@@ -17,13 +17,13 @@
             {
                 case >= 0 and <= 100:
 
-                    Console.WriteLine("Valsid" + number);
+                    Console.WriteLine("Valsid: " + number);
                     break;
                 case >= 101 and <= 200:
-                    Console.WriteLine("Valisid" + number);
+                    Console.WriteLine("Valisid: " + number);
                     break;
                 case >= 201 and <= 300:
-                    Console.WriteLine("Valisid" + number);
+                    Console.WriteLine("Valisid: " + number);
                     break;
                 default:
                     Console.WriteLine("Valisid midagi muud: " + number);
