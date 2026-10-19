@@ -28,6 +28,12 @@
                     tulemus = arv1 - arv2;
                     break;
                 case "/":
+                    if (arv2 == 0)
+                    {
+                        Console.WriteLine("Nulliga ei saa jagada");
+                    }
+                    else
+    
                     tulemus = arv1 / arv2;
                     break;
                 case "*":
