@@ -1,0 +1,47 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("1 - Korrutamine");
+        Console.WriteLine("2 - Vanuse küsimine");
+        Console.WriteLine("3 - Miau meetod");
+
+        Console.Write("Vali tegevus: ");
+        int valik = Convert.ToInt32(Console.ReadLine());
+
+        switch (valik)
+        {
+            case 1:
+                Console.Write("Sisesta esimene arv: ");
+                int arv1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Sisesta teine arv: ");
+                int arv2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Tulemus: " + (arv1 * arv2));
+                break;
+
+            case 2:
+                Console.Write("Kui vana sa oled? ");
+                int vanus = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Sinu vanus on " + vanus);
+                break;
+
+            case 3:
+                Miau();
+                break;
+
+            default:
+                Console.WriteLine("Vale valik!");
+                break;
+        }
+    }
+
+    static void Miau()
+    {
+        Console.WriteLine("Miau");
+    }
+}
