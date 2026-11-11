@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello");
 
-            //teha konsoolirakendus, kus kastad loopi
+            //teha konsoolirakendus, kus kasutad loopi
             //kolm korda näidatakse tere tulemast reaumber
             for (int i = 1; i <= 3; i++)
             {
