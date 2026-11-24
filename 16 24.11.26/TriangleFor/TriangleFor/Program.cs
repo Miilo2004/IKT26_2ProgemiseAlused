@@ -9,7 +9,7 @@
             Console.WriteLine("\n\n");
 
             Console.WriteLine("Sisesta ridade arv: ");
-            int i, j, rows, k = 1;
+            int i, j, rows;
             rows = Convert.ToInt32(Console.ReadLine());
 
             //kasutame kahte fo loopi
